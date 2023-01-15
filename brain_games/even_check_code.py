@@ -30,4 +30,3 @@ def even_number():
     print(f'Congratulations, {name}!')
 
 
-even_number()

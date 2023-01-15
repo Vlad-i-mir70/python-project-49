@@ -28,5 +28,3 @@ def even_number():
             print(f"'{answer}' is wrong answer ;(. Correct answer was 'no'\nLet's try again, {name}!")
             return
     print(f'Congratulations, {name}!')
-
-

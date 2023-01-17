@@ -2,27 +2,25 @@
 
 from brain_games.games.welcome import welcome
 from brain_games.games.calc.calc import calc
-from random import randint
 import prompt
 
-def main():   
-    welcome()
+
+def main():
+    name = welcome()
     print('What is the result of the expression?.')
     n = 3
     while n >= 1:
         n -= 1
-        calc()
-        answer = prompt.string('Your answer: ')  
-        lower_answer = answer.lower()
-        if lower_answer == result:  
+        resul = calc()
+        answ = prompt.string('Your answer: ')
+        lower_answer = answ.lower()
+        if lower_answer == resul:
             print('Correct!')
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{result}'\nLet's try again, {name}!")
-         
-        
+            print(f"'{answ}' is wrong answer ;(. Correct answer was '{resul}'.")
+            print(f"Let's try again, {name}!")
+            return
     print(f'Congratulations, {name}!')
-
-main()
 
 
 if __name__ == "__main__":

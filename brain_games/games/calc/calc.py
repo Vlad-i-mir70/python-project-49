@@ -2,7 +2,6 @@ from random import randint
 
 
 def calc():
-    global result
     number1 = randint(10, 100)
     number2 = randint(1, 10)
     operator_num = randint(1, 3)
@@ -15,5 +14,4 @@ def calc():
     else:
         print(f'Question: {number1} - {number2}')
         result = str(number1 - number2)
-    
-   
+    return result

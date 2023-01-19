@@ -7,7 +7,7 @@ import prompt
 
 def main():
     name = welcome()
-    print('What is the result of the expression?.')
+    print('What is the result of the expression?')
     n = 3
     while n >= 1:
         n -= 1

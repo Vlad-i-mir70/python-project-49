@@ -8,8 +8,7 @@
 
 1. Проверка на четность
 
-[Установка и пример игры](https://asciinema.org/connect/c2632bd1-75f7-4c38-86a4-2f504d480fb4)
-
+[Установка и пример игры](https://asciinema.org/a/vlDnH9g4Y79shIQ9WNpAGT1uv)
 
 2. Калькулятор
 

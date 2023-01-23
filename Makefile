@@ -10,6 +10,8 @@ brain-progression:
 	poetry run brain_progression
 brain-gcd:
 	poetry run brain_gcd
+brain-prime:
+	poetry run brain_prime
 build:
 	poetry build
 publish:

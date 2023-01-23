@@ -1,10 +1,27 @@
 #!/usr/bin/env python3
 
-from brain_games.even_check_code import even_number
+from brain_games.games.welcome import welcome
+from brain_games.games.even.even import brain_even
+import prompt
 
 
 def main():
-    even_number()
+    name = welcome()
+    print('Answer "yes" if the number is even, otherwise answer "no".')
+    n = 3
+    while n >= 1:
+        n -= 1
+        resul = brain_even()
+        answ = prompt.string('Your answer:')
+        lower_answer = answ.lower()
+        if lower_answer == resul:
+            print('Correct!')
+        else:
+            print(f"'{answ}' is wrong answer ;(. Correct answer was '{resul}'.")
+            print("Let's try again, {name}!")
+            return
+
+    print(f'Congratulations, {name}!')
 
 
 if __name__ == "__main__":

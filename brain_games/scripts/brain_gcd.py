@@ -7,7 +7,7 @@ import prompt
 
 def main():
     name = welcome()
-    print('What is the result of the expression?')
+    print('Find the greatest common divisor of given numbers.')
     n = 3
     while n >= 1:
         n -= 1

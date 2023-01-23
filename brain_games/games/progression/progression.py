@@ -15,5 +15,5 @@ def brain_progression():
             collect = collect + ' ..'
         else:
             collect = collect + ' ' + str(i)
-    print(f' Question: {collect}')
+    print(f' Question:{collect}')
     return result

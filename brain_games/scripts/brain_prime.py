@@ -12,13 +12,13 @@ def main():
     while n >= 1:
         n -= 1
         resul = brain_prime()
-        answ = prompt.string('Your answer:')
+        answ = prompt.string('Your answer: ')
         lower_answer = answ.lower()
         if lower_answer == resul:
             print('Correct!')
         else:
             print(f"'{answ}' is wrong answer ;(. Correct answer was '{resul}'.")
-            print("Let's try again, {name}!")
+            print(f"Let's try again, {name}!")
             return
 
     print(f'Congratulations, {name}!')

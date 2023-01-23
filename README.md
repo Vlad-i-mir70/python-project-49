@@ -3,7 +3,7 @@
 <a href="https://codeclimate.com/github/Vlad-i-mir70/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/4beb700ac7eb4b5276a3/maintainability" /></a>
 
 
-**Пакет с игрой ## "Игры Разума".**
+**Пакет с игрой  "Игры Разума".**
 
 Состоит из пяти игр:
 

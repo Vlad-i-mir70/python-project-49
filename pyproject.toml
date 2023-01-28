@@ -1,12 +1,14 @@
 [tool.poetry]
-name = "hexlet-code"
-version = "0.1.0"
-description = ""
-authors = ["y"]
+name = "brain-games"
+version = "0.1.1"
+description = "This game will test your mental abilities."
+authors = ["Vladimir Popchenko <pwd70@mail.ru>"]
 readme = "README.md"
-
 packages = [{include = "brain_games" },]
-
+repository = "https://github.com/Vlad-i-mir70/python-project-49"
+classifiers = [
+    "Topic :: Games/Entertainment"
+]
 [tool.poetry.dependencies]
 python = "^3.11"
 prompt = "^0.4.1"

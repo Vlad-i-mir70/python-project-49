@@ -3,7 +3,7 @@ from random import choice
 import operator
 
 
-def brain_logic():
+def brain_calc():
     number1 = randint(10, 100)
     number2 = randint(1, 10)
     operator_num = ['+', '-', '*']

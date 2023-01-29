@@ -2,7 +2,7 @@ from random import randint
 import math
 
 
-def brain_logic():
+def brain_gcd():
     number1 = randint(10, 99)
     number2 = randint(10, 99)
     task = 'Find the greatest common divisor of given numbers.'

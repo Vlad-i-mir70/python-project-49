@@ -1,7 +1,7 @@
 from random import randint
 
 
-def brain_logic():
+def brain_even():
     number = randint(1, 1000)
     task = 'Answer "yes" if the number is even, otherwise answer "no".'
     question = f'Question: {number}'

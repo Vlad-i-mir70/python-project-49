@@ -1,7 +1,7 @@
 from random import randint
 
 
-def brain_logic():
+def brain_progression():
     number1 = randint(1, 20)
     number2 = randint(120, 150)
     number3 = randint(1, 10)

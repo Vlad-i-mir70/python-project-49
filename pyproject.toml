@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "brain-games"
+name = "hexlet-code"
 version = "0.1.1"
 description = "This game will test your mental abilities."
 authors = ["Vladimir Popchenko <pwd70@mail.ru>"]

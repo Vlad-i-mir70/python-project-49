@@ -9,7 +9,7 @@ def brain_prime():
     def is_prime(number):
         if number == 1:
             return 'no'
-        for i in range (2, number):
+        for i in range(2, number):
             if number % i == 0:
                 return 'no'
         return 'yes'

@@ -4,7 +4,10 @@
 
 **Пакет с игрой  "Игры Разума".**
 
-[Установка игры](python3 -m pip install --user git+https://github.com/Vlad-i-mir70/python-project-49.git) 
+Для установки пакета наберите в командной строке - 
+
+python3 -m pip install --user git+https://github.com/Vlad-i-mir70/python-project-49.git 
+
 
 Состоит из пяти игр:
 

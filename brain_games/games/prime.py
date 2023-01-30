@@ -1,5 +1,4 @@
 from random import randint
-from math import sqrt
 
 
 def brain_prime():
@@ -8,11 +7,9 @@ def brain_prime():
     question = f' Question: {number}'
 
     def is_prime(number):
-        i = 1
-        if number == 3:
-            return 'yes'
-        while i < sqrt(number):
-            i += 1
+        if number == 1:
+            return 'no'
+        for i in range (2, number):
             if number % i == 0:
                 return 'no'
         return 'yes'

@@ -1,4 +1,5 @@
-![Actions Status](https://github.com/Vlad-i-mir70/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/Vlad-i-mir70/python-project-49/actions)
+## Hexlet tests and linter status:
+[![Actions Status](https://github.com/Vlad-i-mir70/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/Vlad-i-mir70/python-project-49/actions)
 <a href="https://codeclimate.com/github/Vlad-i-mir70/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/4beb700ac7eb4b5276a3/maintainability" /></a>
 
 ## **Пакет с игрой  "Игры Разума".**
@@ -41,7 +42,7 @@
 
 Новая установка:
 
-1  Установите Python 3.10 и выше
+  1  Установите Python 3.10 и выше
 Команда для Ubuntu или Ubuntu on Windows (WSL)
 
 ```sudo apt update
@@ -55,10 +56,20 @@ sudo apt install python3
 ```# https://brew.sh/index_ru.html
 brew install python
 ```
-2 Удостоверьтесь, что у вас установлен свежий pip, вызвав python3 -m pip --version. Потребуется версия 19 и выше. При необходимости обновите pip командой python3 -m pip install --upgrade --user pip.
+  2 Удостоверьтесь, что у вас установлен свежий pip, вызвав `python3 -m pip --version`. Потребуется версия 19 и выше. При необходимости обновите pip командой `python3 -m pip install --upgrade --user pip`.
 
-3 Склонируйте репозиторий c игрой локально.
+  3 Склонируйте репозиторий c игрой локально.
+
 `git clone https://github.com/Vlad-i-mir70/python-project-49.git` 
 
-4 Или установите игру прямо из репозитория 
+  4 Или установите игру прямо из репозитория 
+
 `python3 -m pip install --user git+https://github.com/Vlad-i-mir70/python-project-49.git`
+
+  5. Игры запускаются следующим командами
+ ``` brain-even         #  Проверка на четность
+     brain-calc         #  Калькулятор 
+     brain-gcd          #  Наибольший общий делитель (НОД)
+     brain-progression  #  Арифметическая прогрессия
+     brain-prime        #  Простое ли число
+``` 

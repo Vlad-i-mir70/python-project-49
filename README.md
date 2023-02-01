@@ -62,15 +62,17 @@ brew install python
 
 `git clone https://github.com/Vlad-i-mir70/python-project-49.git`
  
- Перейдите в дирректорию со скопированной игрой. 
+ Перейдите в дирректорию со скопированной игрой.
+ 
  Соберите пакет, набрав в командной строке `make build`.
+
  Установите пакет командой `make package install` 
 
   4 Или установите игру прямо из репозитория 
 
 `python3 -m pip install --user git+https://github.com/Vlad-i-mir70/python-project-49.git`
 
-  5. Игры запускаются следующим командами
+  5 Игры запускаются следующим командами
  ``` 
      brain-even         #  Проверка на четность
      brain-calc         #  Калькулятор 

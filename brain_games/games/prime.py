@@ -6,7 +6,10 @@ def is_nonprime(number):
         return number == 1
     else:
         for i in range(2, number):
-            return number % i == 0
+            if number % i == 0:
+                return number % i == 0
+            else:
+                return number % i == 0
 
 
 def brain_prime():

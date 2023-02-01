@@ -1,16 +1,16 @@
 import prompt
 
 
-def brain_engine(brain_logic):
+def brain_run(game_logic):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    res = brain_logic()
+    res = game_logic()
     print(res[1])
     n = 3
     while n >= 1:
         n -= 1
-        res = brain_logic()
+        res = game_logic()
         print(res[2])
         ans = prompt.string('Your answer: ')
         if ans == res[0]:

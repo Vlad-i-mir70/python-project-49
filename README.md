@@ -60,14 +60,19 @@ brew install python
 
   3 Склонируйте репозиторий c игрой локально.
 
-`git clone https://github.com/Vlad-i-mir70/python-project-49.git` 
+`git clone https://github.com/Vlad-i-mir70/python-project-49.git`
+ 
+ Перейдите в дирректорию со скопированной игрой. 
+ Соберите пакет, набрав в командной строке `make build`.
+ Установите пакет командой `make package install` 
 
   4 Или установите игру прямо из репозитория 
 
 `python3 -m pip install --user git+https://github.com/Vlad-i-mir70/python-project-49.git`
 
   5. Игры запускаются следующим командами
- ``` brain-even         #  Проверка на четность
+ ``` 
+     brain-even         #  Проверка на четность
      brain-calc         #  Калькулятор 
      brain-gcd          #  Наибольший общий делитель (НОД)
      brain-progression  #  Арифметическая прогрессия

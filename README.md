@@ -66,7 +66,7 @@ brew install python
  
  Соберите пакет, набрав в командной строке `make build`.
 
- Установите пакет командой `make package install` 
+ Установите пакет командой `make package-install` 
 
   4 Или установите игру прямо из репозитория 
 

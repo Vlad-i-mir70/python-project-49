@@ -5,6 +5,7 @@ import operator
 
 task = 'What is the result of the expression?'
 
+
 def make_question():
     number1 = randint(10, 100)
     number2 = randint(1, 10)
@@ -12,7 +13,8 @@ def make_question():
     operator_random = choice(operator_str)
     question = f'Question: {number1} {operator_random} {number2}'
     return operator_random, question, number1, number2
-    
+
+
 def brain_calc():
     operator_random, question, number1, number2 = make_question()
     if operator_random == '+':

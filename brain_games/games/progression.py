@@ -2,6 +2,7 @@ from random import randint
 
 task = 'What number is missing in the progression?'
 
+
 def make_progression():
     start = randint(1, 20)
     finish = randint(120, 150)

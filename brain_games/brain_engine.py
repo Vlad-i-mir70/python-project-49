@@ -15,7 +15,8 @@ def brain_run(game_logic):
         if your_answer == right_answer:
             print('Correct!')
         else:
-            print(f"'{your_answer}' is wrong answer ;(. Correct answer was '{right_answer}'.")
+            print(f"'{your_answer}' is wrong answer ;(. \
+Correct answer was '{right_answer}'.")
             print(f"Let's try again, {name}!")
             return
     print(f'Congratulations, {name}!')

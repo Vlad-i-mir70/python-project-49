@@ -9,7 +9,7 @@ from brain_games.brain_engine import brain_run
 def main():
 
     print(task)
-    
+
     brain_run(brain_even)
 
 

@@ -4,6 +4,7 @@ import math
 
 task = 'Find the greatest common divisor of given numbers.'
 
+
 def brain_gcd():
     number1 = randint(10, 99)
     number2 = randint(10, 99)

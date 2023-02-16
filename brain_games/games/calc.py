@@ -3,7 +3,7 @@ from random import choice
 import operator
 
 
-task = 'What is the result of the expression?'
+DESCRIPTION = 'What is the result of the expression?'
 
 
 def make_question():
@@ -11,11 +11,11 @@ def make_question():
     number2 = randint(1, 10)
     operator_str = ['+', '-', '*']
     operator_random = choice(operator_str)
-    question = f'Question: {number1} {operator_random} {number2}'
+    question = f'{number1} {operator_random} {number2}'
     return operator_random, question, number1, number2
 
 
-def brain_calc():
+def get_question_and_answer():
     operator_random, question, number1, number2 = make_question()
     if operator_random == '+':
         right_answer = str(operator.add(number1, number2))

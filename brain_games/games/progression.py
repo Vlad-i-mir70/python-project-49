@@ -1,6 +1,6 @@
 from random import randint
 
-task = 'What number is missing in the progression?'
+DESCRIPTION = 'What number is missing in the progression?'
 
 
 def make_progression():
@@ -11,7 +11,7 @@ def make_progression():
     return progression
 
 
-def brain_progression():
+def get_question_and_answer():
     position = randint(0, 9)
     progression = make_progression()
     right_answer = str(progression[position])
@@ -20,5 +20,5 @@ def brain_progression():
     collect = ''
     for i in list_progr[:10]:
         collect = collect + ' ' + str(i)
-    question = f'Question:{collect}'
+    question = collect
     return right_answer, question

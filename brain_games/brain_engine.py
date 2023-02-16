@@ -2,15 +2,14 @@ import prompt
 from brain_games.cli import welcome_user
 
 
-name = welcome_user()
-
-
 def brain_run(game_logic):
+    name = welcome_user()
+    print(game_logic.DESCRIPTION)
     n = 3
     while n >= 1:
         n -= 1
-        right_answer, question = game_logic()
-        print(question)
+        right_answer, question = game_logic.get_question_and_answer()
+        print(f'Question: {question}')
         your_answer = prompt.string('Your answer: ')
         if your_answer == right_answer:
             print('Correct!')

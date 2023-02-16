@@ -1,7 +1,7 @@
 from random import randint
 from math import sqrt
 
-task = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_nonprime(number):
@@ -15,9 +15,9 @@ def is_nonprime(number):
     return number % i == 0
 
 
-def brain_prime():
+def get_question_and_answer():
     number = randint(1, 1000)
-    question = f' Question: {number}'
+    question = number
     answer = is_nonprime(number)
     if answer:
         right_answer = 'no'

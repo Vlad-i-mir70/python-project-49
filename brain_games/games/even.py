@@ -1,16 +1,16 @@
 from random import randint
 
 
-task = 'Answer "yes" if the number is even, otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def is_even(number):
     return number % 2 == 0
 
 
-def brain_even():
+def get_question_and_answer():
     number = randint(1, 1000)
-    question = f'Question: {number}'
+    question = number
     answer = is_even(number)
     if answer:
         right_answer = 'yes'

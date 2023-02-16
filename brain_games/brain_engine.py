@@ -9,7 +9,7 @@ def brain_run(game_logic):
     while n >= 1:
         n -= 1
         right_answer, question = game_logic.get_question_and_answer()
-        print(f'Question: {question}')
+        print(f'Question:{question}')
         your_answer = prompt.string('Your answer: ')
         if your_answer == right_answer:
             print('Correct!')

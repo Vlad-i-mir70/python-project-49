@@ -20,5 +20,5 @@ def get_question_and_answer():
     collect = ''
     for i in list_progr[:10]:
         collect = collect + ' ' + str(i)
-    question = collect
+    question = collect.lstrip()
     return right_answer, question

@@ -1,9 +1,10 @@
 import prompt
-from brain_games.cli import welcome_user
 
 
 def brain_run(game_logic):
-    name = welcome_user()
+    print('Welcome to the Brain Games!')
+    name = prompt.string('May I have your name? ')
+    print(f'Hello, {name}!')
     print(game_logic.DESCRIPTION)
     n = 3
     while n >= 1:

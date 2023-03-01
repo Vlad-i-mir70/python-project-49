@@ -6,21 +6,12 @@ import operator
 DESCRIPTION = 'What is the result of the expression?'
 
 
-def make_question():
+def get_question_and_answer():
     number1 = randint(10, 100)
     number2 = randint(1, 10)
-    operator_str = ['+', '-', '*']
-    operator_random = choice(operator_str)
+    operator_dict = {'+': operator.add, '-': operator.sub, '*': operator.mul}
+    operator_random = choice(list(operator_dict))
     question = f'{number1} {operator_random} {number2}'
-    return operator_random, question, number1, number2
-
-
-def get_question_and_answer():
-    operator_random, question, number1, number2 = make_question()
-    if operator_random == '+':
-        right_answer = str(operator.add(number1, number2))
-    elif operator_random == '-':
-        right_answer = str(operator.sub(number1, number2))
-    else:
-        right_answer = str(operator.mul(number1, number2))
+    operator_random_value = operator_dict[operator_random]
+    right_answer = str(operator_random_value(number1, number2))
     return right_answer, question

@@ -17,11 +17,5 @@ def is_nonprime(number):
 
 def get_question_and_answer():
     number = randint(1, 1000)
-    question = number
     answer = is_nonprime(number)
-    if answer:
-        right_answer = 'no'
-        return right_answer, question
-    else:
-        right_answer = 'yes'
-        return right_answer, question
+    return ('no', number) if answer else ('yes', number)
